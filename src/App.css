@@ -1,0 +1,20 @@
+body {
+  background-color: bisque;
+}
+
+.error {
+  color: red;
+}
+.nav {
+  background: oldlace;
+  justify-content: center;
+}
+.nav-links {
+  text-decoration: none;
+  color: black;
+}
+.card-img {
+  height: 200px;
+  background-position: right;
+  background-size: cover;
+}
