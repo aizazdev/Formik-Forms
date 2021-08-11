@@ -2,8 +2,13 @@ import React from 'react';
 import Navbar from './navbar';
 import { Card, Container, Row, Col,Button } from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux'
 
 const Home = () => {
+
+    const count = useSelector((state) => console.log(state));
+    const dispatch = useDispatch();
+
     return (
         <>
             <Container fluid>
